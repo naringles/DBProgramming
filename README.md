@@ -1,2 +1,0 @@
-# DBProgramming
-DBProgramming repo

@@ -59,7 +59,10 @@ namespace StudentInfo
         private void UpdateNumberofStudent()
         {
 
-           if (textBoxName1.Text == "학생정보 없음")
+            MessageBox.Show("Conflict");
+
+
+ /*           if (textBoxName1.Text == "학생정보 없음")
                 student1 = 0;
             else
                 student1 = 1;
@@ -70,7 +73,7 @@ namespace StudentInfo
             if (textBoxName3.Text == "학생정보 없음")
                 student3 = 0;
             else
-                student3 = 1;
+                student3 = 1; */
 
             numberofstudent = student1 + student2 + student3;
 

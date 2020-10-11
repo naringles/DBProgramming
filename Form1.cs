@@ -56,11 +56,8 @@ namespace StudentInfo
             firstrun = 1;
         }
 
-        private void UpdateNumberofStudent()
-        {
-
-            MessageBox.Show("Conflict");
-
+        private void UpdateNumberofStudent(){
+            
            if (textBoxName1.Text == "학생정보 없음")
                 student1 = 0;
             else

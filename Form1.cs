@@ -58,10 +58,10 @@ namespace StudentInfo
 
         private void UpdateNumberofStudent(){
             
-           if (textBoxName1.Text == "학생정보 없음")
+           /*if (textBoxName1.Text == "학생정보 없음")
                 student1 = 0;
             else
-                student1 = 1;
+                student1 = 1;s
             if (textBoxName2.Text == "학생정보 없음")
                 student2 = 0;
             else
@@ -69,7 +69,9 @@ namespace StudentInfo
             if (textBoxName3.Text == "학생정보 없음")
                 student3 = 0;
             else
-                student3 = 1;
+                student3 = 1;*/
+
+
 
             labelCorrentStdNum.Text = "현재 저장된 학생 수 : " + numberofstudent;
         }

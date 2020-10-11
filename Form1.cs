@@ -74,8 +74,6 @@ namespace StudentInfo
             else
                 student3 = 1; */
 
-            numberofstudent = student1 + student2 + student3;
-
             labelCorrentStdNum.Text = "현재 저장된 학생 수 : " + numberofstudent;
         }
 
